@@ -7,11 +7,12 @@ export const SearchWrapper = styled.div`
 `;
 
 export const Box = styled.form`
+  position: relative;
+  top: -50px;
   width: 940px;
   height: 100px;
   background-color: #ffffff;
-  font-family: NanumSquare;
-  box-shadow: 15px 20px 20px #d7d7d7;
+  box-shadow: 15px 25px 20px #d7d7d7;
   input {
     width: 460px;
     height: 50px;
@@ -46,7 +47,6 @@ export const Box = styled.form`
 export const Text = styled.h1`
   position: relative;
   top: 40px;
-  font-family: NanumSquare;
   font-size: 1.625rem;
   font-weight: 800;
   color: #727375;
