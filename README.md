@@ -15,6 +15,7 @@ enjoyin 프로젝트의 Front-end
 - src
   - assets
   - components
+    - style
   - containers
   - redux
     - actions
@@ -23,7 +24,6 @@ enjoyin 프로젝트의 Front-end
   - lib
     - api
     - hooks
-  - styles
 
 
 
